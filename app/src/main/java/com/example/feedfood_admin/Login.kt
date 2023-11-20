@@ -1,5 +1,6 @@
 package com.example.feedfood_admin
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -13,6 +14,13 @@ class Login : AppCompatActivity() {
         val Login = findViewById<Button>(R.id.bt_Login)
         val emailEditText = findViewById<EditText>(R.id.add_email)
         val passwordEditText = findViewById<EditText>(R.id.add_pwd)
+
+        Login.setOnClickListener{
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+
+        }
     }
+
 
 }

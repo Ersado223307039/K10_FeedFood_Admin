@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#81F44336"
+    android:background="@drawable/bg_gradient"
     tools:context=".Login">
 
     <LinearLayout
@@ -17,7 +17,7 @@
             android:layout_width="230dp"
             android:layout_height="189dp"
             android:layout_gravity="center"
-            app:srcCompat="@drawable/Admin"
+            app:srcCompat="@drawable/adminlogo"
             tools:ignore="ContentDescription" />
         <ImageView
             android:id="@+id/imageView1"
